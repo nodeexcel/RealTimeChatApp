@@ -48,3 +48,10 @@ The server is deployed using Heroku and the client is deployed using Netlify.
 * It shows the current users who are in the same room, 
 * Send notifications when any user joins or left,
 * This chat app allows the entry of unique users for a single room For ex- if Joe is in room "Gamers" he cannot join within the same name.
+
+# Future Scope
+* This app is currently session based and does not at any circumstances stores or monitors the Chat going in any room. 
+* Will be connected to a database either FIrebase or MongoDB to act as cache so that users can take a look at their previous chats.
+* A column will be added to show all the online users.
+* The ability to add images, videos and docs.
+* To add a variety of emojis more easily
